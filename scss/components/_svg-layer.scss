@@ -1,0 +1,10 @@
+@use 'hero';
+
+.svg-layer {
+  @extend .hero__svg-layer-wrapper;
+  rotate: 180deg;
+
+  &__img {
+    @extend .hero__svg-layer;
+  }
+}

@@ -1,14 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parallax Effect</title>
-  <link rel="stylesheet" href="style/style.css">
-  <script src="./script.js" defer></script>
-</head>
-<body>
-  
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Parallax effect is a cool effect in web design and it's very popular these days. It makes the visitor keep looking at the page.">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./script.js" defer></script>
+		<title>Parallax Effect</title>
+	</head>
+	<body>
+		<section class="hero">
+			<header class="hero__text-wrapper">
+				<h1 id="parallax-1" class="hero__title" data-speed="0.1">
+					Parallax Effect
+				</h1>
+				<p id="parallax-1" class="hero__hint" data-speed="0.15">Scroll down</p>
+			</header>
+			<div class="hero__svg-layer-wrapper">
+				<img
+					src="./asset/sky.svg"
+					alt=""
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0.3"
+				/>
+				<img
+					src="./asset/cloud.svg"
+					alt=""
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0.85"
+				/>
+				<img
+					src="./asset/mountain-back.svg"
+					alt=""
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0.8"
+				/>
+				<img
+					src="./asset/mountain-middle.svg"
+					alt=""
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0.7"
+				/>
+				<img
+					src="./asset/mountain-front.svg"
+					alt=""
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0.6"
+				/>
+				<img
+					src="./asset/bridge.svg"
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0.3"
+				/>
+				<img
+					src="./asset/tree-back.svg"
+					alt=""
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0.2"
+				/>
+				<img
+					src="./asset/tree-front.svg"
+					alt=""
+					id="parallax-1"
+					class="hero__svg-layer"
+					data-speed="0"
+				/>
+			</div>
+		</section>
+
+		<section class="article">
+			<main>
+				<article>
+					<h1 class="article__heading">What is the parallax effect?</h1>
+
+					<p class="article__paragraph">
+						The Parallax effect is a visual effect which creates the illusion of
+						movement towards or away from the user when they scroll down or up.
+						This effect is usually applied in websites, blogs and other types of
+						digital media where there is a need to display content in 3D space
+						with realistic depth perception.
+					</p>
+
+					<p class="article__paragraph">
+						It plays an important role in the user experience of your website.
+						It involved for you to become more attractive in the eyes of the
+						user.
+					</p>
+				</article>
+			</main>
+		</section>
+
+		<div class="svg-layer">
+			<img
+				src="./asset/bridge.svg"
+				alt=""
+				id="parallax-2"
+				class="svg-layer__img"
+				data-speed="0.1"
+			/>	
+			<img
+				src="./asset/tree-back.svg"
+				alt=""
+				id="parallax-2"
+				class="svg-layer__img"
+				data-speed="0.1"
+			/>
+			<img
+				src="./asset/tree-front.svg"
+				alt=""
+				id="bottom-front"
+				class="svg-layer__img"
+			/>
+		</div>
+
+		<aside class="offering">
+			<h1 class="offering__title">Want to build website with this effect?</h1>
+			<p class="offering__contact">
+				Contact me <br />
+				<a href="mailto:mattarannaufal@gmail.com" class="offering__link">
+					mattarannaufal@gmail.com
+				</a>
+			</p>
+		</aside>
+
+		<footer class="footer">
+			<p class="footer__copyright">Copyright 2023 &#169; All rights reversed. By M Attar</p>
+		</footer>
+	</body>
 </html>

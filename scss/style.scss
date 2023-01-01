@@ -1,3 +1,8 @@
-@use '../font/chillax';
-@use '../font/outfit';
+@use '../fonts/chillax/chillax';
 
+@use './configure/base';
+@use './components/hero';
+@use './components/article';
+@use './components/svg-layer';
+@use './components/offering';
+@use './components/footer';

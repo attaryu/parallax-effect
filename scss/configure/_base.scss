@@ -1,0 +1,17 @@
+:root {
+  --color-1: #00121C;
+  --color-2: #003964;
+  --color-3: #A2FFF4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font: 400 1rem 'Outfit';
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,53 @@
+.hero {
+  width: 100%;
+  background-color: var(--color-3);
+
+  &__text-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  &__title {
+    margin-block-end: 0.7rem;
+    padding-inline: 1rem;
+    font: 2.8rem 'Chillax-Bold';
+    color: var(--color-1);
+    text-align: center;
+    line-height: 1;
+
+    @media only screen and (max-width: 411px) {
+      font-size: 2.5rem;
+    }
+  }
+  
+  &__hint {
+    margin-block-end: 11rem;
+    font: 700 1.1rem 'Outfit';
+    text-align: center;
+    color: var(--color-2);
+
+    @media only screen and (max-width: 411px) {
+      font-size: 1rem;
+    }
+  }
+
+  &__svg-layer-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  &__svg-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+}

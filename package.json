@@ -4,9 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass ./scss/style.scss ./style.css --watch --no-source-map"
+    "sass": "sass ./scss/style.scss ./style.css --watch",
+    "sass-compile": "sass ./scss/style.scss ./scss/style.css --no-source-map",
+    "optimization": "postcss ./scss/style.css -u autoprefixer cssnano -o ./style.css --no-map",
+    "build": "npm run sass-compile && npm run optimization"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.57.1"
+  }
 }

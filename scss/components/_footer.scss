@@ -1,0 +1,12 @@
+.footer {
+  margin-block-start: 10rem;
+  padding-block: 1rem;
+  width: 100%;
+  background-color: var(--color-1);
+
+  &__copyright {
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+  }
+}

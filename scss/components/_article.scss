@@ -1,0 +1,35 @@
+.article {
+  width: 100%;
+  padding: 10rem 14vw;
+  background: var(--color-1);
+
+  @media only screen and (max-width: 411px) {
+    padding-inline: 2rem;
+  }
+
+  &__heading {
+    margin-block-end: 2rem;
+    font: 700 2rem 'Outfit';
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+
+    @media only screen and (max-width: 411px) {
+      font-size: 1.8rem;
+      text-align: left;
+    }
+  }
+  
+  &__paragraph {
+    margin-block-end: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    
+    @media only screen and (max-width: 411px) {
+      font-size: 1.1rem;
+      text-align: left;
+    }
+  }
+}
