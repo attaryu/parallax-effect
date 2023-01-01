@@ -1,0 +1,12 @@
+{
+  "name": "parallax-effect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./scss/style.scss ./style.css --watch --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
